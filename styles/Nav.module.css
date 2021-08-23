@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
+
+.nav {
+  height: 60px;
+  width: 100%;
+  background-color: crimson;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-block-end: 0px;
+  padding: 0px;
+}
+
+.search {
+  margin: 10px;
+  height: 40px;
+  border-radius: 20px;
+  padding-left: 10px;
+  background-color: crimson;
+  border: 1px white solid;
+}
+.search::placeholder {
+  color: rgb(212, 209, 209);
+}
+.search:focus {
+  outline: none;
+  background-color: rgb(163, 15, 45);
+  color: white;
+}
+.nav ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav ul li {
+  margin-bottom: 15px;
+}
+.text {
+  margin-left: 8px;
+  margin-top: 15px;
+  font-family: "Julius Sans One", sans-serif;
+  cursor: pointer;
+  color: white;
+}
